@@ -27,7 +27,7 @@ help-list-snippets(){
     if [[ "$1" = "inZLE" ]]; then
         zle -M "$help"
     else
-        echo "$help" | $PAGER
+        echo "$help" | ${PAGER:-less}
     fi
 }
 run-help-list-snippets(){
