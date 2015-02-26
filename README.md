@@ -6,9 +6,10 @@ For the lazy:
     git clone https://github.com/willghatch/zsh-snippets.git
     echo "source zsh-snippets/snippets.plugin.zsh" >> ~/.zshrc
 
-Better, use [antigen](https://github.com/zsh-users/antigen) or [antigen-hs](https://github.com/Tarrasch/antigen-hs).  Here is how to do it with antigen:
+Better, use [zgen](https://github.com/tarjoilija/zgen) or antigen.  Here is how to do it with zgen:
 
-    antigen bundle willghatch/zsh-snippets
+    zgen load willghatch/zsh-snippets
+
 
 The Magic
 ---------
