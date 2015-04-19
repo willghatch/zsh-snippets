@@ -32,3 +32,9 @@ List snippets
     # M-x run-help-list-snippets -- does the same thing
 
 This snippet stuff has been floating around in a few different forms and names.  I think the first version was from http://zshwiki.org/home/examples/zleiab.  My version adds some (in my opinion) handy interface functions, and packages it in a plugin for easy use with antigen.
+
+License
+-------
+
+I've seen parts of this code all over the web, so I assume it's fair game.  All my contributions I dedicate to the public domain.
+
